@@ -1,0 +1,297 @@
+{
+  "config": {
+    "rounds": 70,
+    "seeds": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "scenarios": [
+      "clean",
+      "labelflip_ramp",
+      "lr_blowup",
+      "dropout_cascade"
+    ],
+    "bars": {
+      "B1": "median lead vs accuracy watcher >= 3 rounds on >= 2 of 3 collapse modes",
+      "B2": "zero sentinel warnings on clean runs"
+    }
+  },
+  "rows": [
+    {
+      "scenario": "clean",
+      "seed": 101,
+      "final_val_accuracy": 0.9875,
+      "peak_val_accuracy": 0.9883,
+      "accuracy_watcher_round": null,
+      "norm_watcher_round": null,
+      "sentinel_round": null,
+      "lead_vs_accuracy": null,
+      "lead_vs_norm": null
+    },
+    {
+      "scenario": "clean",
+      "seed": 102,
+      "final_val_accuracy": 0.9817,
+      "peak_val_accuracy": 0.9825,
+      "accuracy_watcher_round": null,
+      "norm_watcher_round": null,
+      "sentinel_round": null,
+      "lead_vs_accuracy": null,
+      "lead_vs_norm": null
+    },
+    {
+      "scenario": "clean",
+      "seed": 103,
+      "final_val_accuracy": 0.9742,
+      "peak_val_accuracy": 0.975,
+      "accuracy_watcher_round": null,
+      "norm_watcher_round": null,
+      "sentinel_round": null,
+      "lead_vs_accuracy": null,
+      "lead_vs_norm": null
+    },
+    {
+      "scenario": "clean",
+      "seed": 104,
+      "final_val_accuracy": 0.975,
+      "peak_val_accuracy": 0.9767,
+      "accuracy_watcher_round": null,
+      "norm_watcher_round": null,
+      "sentinel_round": null,
+      "lead_vs_accuracy": null,
+      "lead_vs_norm": null
+    },
+    {
+      "scenario": "clean",
+      "seed": 105,
+      "final_val_accuracy": 0.9725,
+      "peak_val_accuracy": 0.975,
+      "accuracy_watcher_round": null,
+      "norm_watcher_round": null,
+      "sentinel_round": null,
+      "lead_vs_accuracy": null,
+      "lead_vs_norm": null
+    },
+    {
+      "scenario": "labelflip_ramp",
+      "seed": 101,
+      "final_val_accuracy": 0.4717,
+      "peak_val_accuracy": 0.9875,
+      "accuracy_watcher_round": 18,
+      "norm_watcher_round": null,
+      "sentinel_round": 16,
+      "lead_vs_accuracy": 2,
+      "lead_vs_norm": 53
+    },
+    {
+      "scenario": "labelflip_ramp",
+      "seed": 102,
+      "final_val_accuracy": 0.5525,
+      "peak_val_accuracy": 0.9808,
+      "accuracy_watcher_round": 18,
+      "norm_watcher_round": null,
+      "sentinel_round": 16,
+      "lead_vs_accuracy": 2,
+      "lead_vs_norm": 53
+    },
+    {
+      "scenario": "labelflip_ramp",
+      "seed": 103,
+      "final_val_accuracy": 0.3475,
+      "peak_val_accuracy": 0.9725,
+      "accuracy_watcher_round": 17,
+      "norm_watcher_round": null,
+      "sentinel_round": 16,
+      "lead_vs_accuracy": 1,
+      "lead_vs_norm": 53
+    },
+    {
+      "scenario": "labelflip_ramp",
+      "seed": 104,
+      "final_val_accuracy": 0.4692,
+      "peak_val_accuracy": 0.9767,
+      "accuracy_watcher_round": 17,
+      "norm_watcher_round": null,
+      "sentinel_round": 16,
+      "lead_vs_accuracy": 1,
+      "lead_vs_norm": 53
+    },
+    {
+      "scenario": "labelflip_ramp",
+      "seed": 105,
+      "final_val_accuracy": 0.2992,
+      "peak_val_accuracy": 0.9725,
+      "accuracy_watcher_round": 18,
+      "norm_watcher_round": null,
+      "sentinel_round": 16,
+      "lead_vs_accuracy": 2,
+      "lead_vs_norm": 53
+    },
+    {
+      "scenario": "lr_blowup",
+      "seed": 101,
+      "final_val_accuracy": 0.7242,
+      "peak_val_accuracy": 0.9875,
+      "accuracy_watcher_round": 24,
+      "norm_watcher_round": 24,
+      "sentinel_round": 18,
+      "lead_vs_accuracy": 6,
+      "lead_vs_norm": 6
+    },
+    {
+      "scenario": "lr_blowup",
+      "seed": 102,
+      "final_val_accuracy": 0.8067,
+      "peak_val_accuracy": 0.9817,
+      "accuracy_watcher_round": 26,
+      "norm_watcher_round": 25,
+      "sentinel_round": 18,
+      "lead_vs_accuracy": 8,
+      "lead_vs_norm": 7
+    },
+    {
+      "scenario": "lr_blowup",
+      "seed": 103,
+      "final_val_accuracy": 0.7983,
+      "peak_val_accuracy": 0.975,
+      "accuracy_watcher_round": 27,
+      "norm_watcher_round": 26,
+      "sentinel_round": 18,
+      "lead_vs_accuracy": 9,
+      "lead_vs_norm": 8
+    },
+    {
+      "scenario": "lr_blowup",
+      "seed": 104,
+      "final_val_accuracy": 0.7133,
+      "peak_val_accuracy": 0.9733,
+      "accuracy_watcher_round": 24,
+      "norm_watcher_round": 23,
+      "sentinel_round": 18,
+      "lead_vs_accuracy": 6,
+      "lead_vs_norm": 5
+    },
+    {
+      "scenario": "lr_blowup",
+      "seed": 105,
+      "final_val_accuracy": 0.7133,
+      "peak_val_accuracy": 0.9733,
+      "accuracy_watcher_round": 23,
+      "norm_watcher_round": 24,
+      "sentinel_round": 18,
+      "lead_vs_accuracy": 5,
+      "lead_vs_norm": 6
+    },
+    {
+      "scenario": "dropout_cascade",
+      "seed": 101,
+      "final_val_accuracy": 0.9292,
+      "peak_val_accuracy": 0.9867,
+      "accuracy_watcher_round": 56,
+      "norm_watcher_round": null,
+      "sentinel_round": 17,
+      "lead_vs_accuracy": 39,
+      "lead_vs_norm": 52
+    },
+    {
+      "scenario": "dropout_cascade",
+      "seed": 102,
+      "final_val_accuracy": 0.9592,
+      "peak_val_accuracy": 0.9808,
+      "accuracy_watcher_round": null,
+      "norm_watcher_round": null,
+      "sentinel_round": 17,
+      "lead_vs_accuracy": 52,
+      "lead_vs_norm": 52
+    },
+    {
+      "scenario": "dropout_cascade",
+      "seed": 103,
+      "final_val_accuracy": 0.93,
+      "peak_val_accuracy": 0.9725,
+      "accuracy_watcher_round": null,
+      "norm_watcher_round": null,
+      "sentinel_round": 17,
+      "lead_vs_accuracy": 52,
+      "lead_vs_norm": 52
+    },
+    {
+      "scenario": "dropout_cascade",
+      "seed": 104,
+      "final_val_accuracy": 0.9175,
+      "peak_val_accuracy": 0.9708,
+      "accuracy_watcher_round": 68,
+      "norm_watcher_round": null,
+      "sentinel_round": 17,
+      "lead_vs_accuracy": 51,
+      "lead_vs_norm": 52
+    },
+    {
+      "scenario": "dropout_cascade",
+      "seed": 105,
+      "final_val_accuracy": 0.9342,
+      "peak_val_accuracy": 0.9725,
+      "accuracy_watcher_round": null,
+      "norm_watcher_round": null,
+      "sentinel_round": 17,
+      "lead_vs_accuracy": 52,
+      "lead_vs_norm": 52
+    }
+  ],
+  "summary": {
+    "clean": {
+      "sentinel_false_alarms": 0,
+      "runs": 5
+    },
+    "labelflip_ramp": {
+      "runs": 5,
+      "sentinel_fired": 5,
+      "median_lead_vs_accuracy": 2.0,
+      "median_lead_vs_norm": 53.0,
+      "leads_vs_accuracy": [
+        2,
+        2,
+        1,
+        1,
+        2
+      ]
+    },
+    "lr_blowup": {
+      "runs": 5,
+      "sentinel_fired": 5,
+      "median_lead_vs_accuracy": 6.0,
+      "median_lead_vs_norm": 6.0,
+      "leads_vs_accuracy": [
+        6,
+        8,
+        9,
+        6,
+        5
+      ]
+    },
+    "dropout_cascade": {
+      "runs": 5,
+      "sentinel_fired": 5,
+      "median_lead_vs_accuracy": 52.0,
+      "median_lead_vs_norm": 52.0,
+      "leads_vs_accuracy": [
+        39,
+        52,
+        52,
+        51,
+        52
+      ]
+    }
+  },
+  "verdict": {
+    "B1_modes_passing": [
+      "lr_blowup",
+      "dropout_cascade"
+    ],
+    "B1_pass": true,
+    "B2_pass": true
+  }
+}
